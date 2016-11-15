@@ -1,0 +1,48 @@
+main {
+  padding: 100px;
+  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
+ ! font-size: 0;
+}
+
+.container-one {
+  width: 800px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0;
+}
+.row-one {
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 0;
+}
+
+.inner-one {
+   background-color: green;
+}
+
+.inner-two {
+  background-color: blue;
+}
+
+.row-two {
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 0;
+}
+
+.inner-three {
+  background-color: gray;
+}
+
+.inner-four {
+  background-color: black;
+}
+
+.inner-five {
+  background-color: orange;
+}
