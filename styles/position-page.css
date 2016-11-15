@@ -5,23 +5,49 @@ nav {
   background-color: grey;
   height: 60px;
   position: fixed;
+  top: 0px;
+  border: 2px solid black;
   width: 100%;
 }
 nav img {
-	border: 1 px solid black;
+	border: 1px solid black;
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
 }
 nav ul {
-	padding-left: 90px;
-	text-align: left;
+	display: inline-block;
+	position: absolute;
+	margin-top: 7.5px;
+	padding-left: 30px;
+	font-size: 20px; 
+	color: blue;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	font-weight: bold;
+	color: green;
+}
+a:active {
+	font-size: 30px;
+	color: black;
+}
+
+ul li::after {
+	margin-left: 5px;
+	margin-right: 5px;
+	content: "\00a6";
+	font-size: 20px;
+	color: black;
 }
 
 nav li {
 	display: inline-block;
 	margin-top: -90px;
 }
+
 body {
   background: url(../images/outerspace_landscape.jpeg) no-repeat;
   background-size: cover;
